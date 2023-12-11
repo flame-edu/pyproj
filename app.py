@@ -37,10 +37,10 @@ class MainWindow(QMainWindow):
         self.comboBox.addItems(['Картинка', 'Видео'])
         self.comboBox.setCurrentText('Картинка')
 
-        self.imageBox = QLabel()
+        # self.imageBox = QLabel()
         self.image_window = ImageWindow()
-        self.image_output = cv2.imread('Dogtaleshope.jpg')
-        self.updateImage(self.image_output)
+        # self.image_output = cv2.imread('Dogtaleshope.jpg')
+        # self.updateImage(self.image_output)
 
         self.buttonStart = QPushButton()
         self.buttonStart.setText('Произвести обнаружение')
